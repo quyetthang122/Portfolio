@@ -1,0 +1,187 @@
+
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #0e5d8d, #005a90, #005692, #005294, #004e96);
+  font-family: 'Ubuntu Mono', monospace;
+  
+}
+
+.header-color{
+  background-color: transparent !important;
+}
+/***** Introduction - Landing page ******/
+.intro{
+  width: 85vw;
+  height: 80vh;
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 12px 9px 64px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 9px 64px -9px rgba(0,0,0,0.75);
+box-shadow: 12px 9px 64px -9px rgba(0,0,0,0.75);
+  
+}
+
+.hi{
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.hi-web{
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: regular;
+}
+.webDev{
+  text-align: center;
+  margin-left: 35vw;
+  padding-top: 100px;
+}
+
+.socialLink {
+  display: flex;
+  justify-content:space-between;
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.socialLink a {
+  
+  padding-left: 1rem;
+}
+
+.socialLink a i{
+  font-size: 4rem;
+  color:#005a90;
+}
+
+.landing-grid{
+
+  background-image: linear-gradient(to right top, #0e5d8d, #005a90, #005692, #005294, #004e96);
+
+}
+
+.avatar-img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60vw;
+  max-width: 50vw;
+  min-width: 500px;
+  
+}
+
+/****** Projects ******/
+
+.category-tabs{
+  color: white !important;
+  background-color: white;
+  border-bottom-color: transparent !important;
+}
+
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background:  #005294 !important;
+  
+}
+
+.projects-grid {
+
+  display: flex;
+  justify-content:space-between;
+  margin-top: 2rem !important;
+  margin-left: -5rem;
+  margin-right: 3rem;
+}
+
+/***** Contact Page ****/
+
+.contact-body{
+  width: 85vw;
+  height: 80vh;
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  -webkit-box-shadow: 12px 9px 64px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 9px 64px -9px rgba(0,0,0,0.75);
+  box-shadow: 12px 9px 64px -9px rgba(0,0,0,0.75);
+  overflow-y: auto;
+  padding-top: 2rem;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  margin-top: 7rem !important;
+}
+
+/***** Resume ****/
+.resume-body{
+  width: 85vw;
+  height: 80vh;
+  background-color: white;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 1030px) {
+
+.mdl-layout__drawer-button {
+
+  color: white !important;
+}
+
+.intro{
+    width: 80vw;
+    height: 80vh;
+    margin-top: 5rem !important;
+    background-color: white;
+    margin: auto;
+  }
+  .webDev{
+    text-align: center;
+    margin-left: 0vw;
+    padding-top: 10px;
+  }
+
+  .socialLink {
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin: auto;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .projects-grid {
+
+    display: initial;
+  
+  }
+  .contact-body{
+
+    margin-top: 5rem !important;
+
+  }
+  .contact-grid{
+    margin-top: 2rem !important;
+  }
+  .resume-body{
+    margin-top: 5rem !important;
+  }
+  
+  /* .socialLink a {
+    padding-left: 1rem;
+  }
+
+  .socialLink a i{
+    font-size: 3rem;
+    color:#005a90;
+  } */
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.091e0726.chunk.css",
+    "main.js": "/static/js/main.1ce27017.chunk.js",
+    "main.js.map": "/static/js/main.1ce27017.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.e39071b2.chunk.js": "/static/js/2.e39071b2.chunk.js",
+    "static/js/2.e39071b2.chunk.js.map": "/static/js/2.e39071b2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.16c7a66f96f8529eb88c0f68fcd8a121.js": "/precache-manifest.16c7a66f96f8529eb88c0f68fcd8a121.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.091e0726.chunk.css.map": "/static/css/main.091e0726.chunk.css.map",
+    "static/media/Greenstone-Direct.png": "/static/media/Greenstone-Direct.3b597fe7.png",
+    "static/media/IT-Internship.png": "/static/media/IT-Internship.33371cdf.png",
+    "static/media/Lobterlash.png": "/static/media/Lobterlash.7cac734b.png",
+    "static/media/Pride-Oscar.png": "/static/media/Pride-Oscar.fa4e3e47.png",
+    "static/media/ThangVu-CV.pdf": "/static/media/ThangVu-CV.5ae51b0e.pdf",
+    "static/media/Thangvu.png": "/static/media/Thangvu.0cbb12b4.png",
+    "static/media/photo-2.png": "/static/media/photo-2.fad5717b.png",
+    "static/media/photo.png": "/static/media/photo.f396d85c.png"
+  }
+}
